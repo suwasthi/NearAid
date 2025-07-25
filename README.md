@@ -1,16 +1,41 @@
-# accident_alert_app
+# NearAid 
+**Smart Helmet Emergency Assistant App**
 
-A new Flutter project.
+NearAid is a mobile application designed to work with a smart helmet system. In the event of an accident, the app detects the GPS location, finds the nearest hospital using the Google Places API, and sends the hospital contact number to the microcontroller (e.g., ESP32) via Bluetooth.
+
+---
+
+## Features
+
+-  Real-time GPS location detection
+-  Finds nearest hospital using Google Places API
+-  Sends hospital contact number to MCU over Bluetooth
+-  Designed for quick response after a crash
+-  Works with permission handling and user prompts
+
+---
+
+## Tech Stack
+
+- **Flutter** – Cross-platform mobile app development  
+- **Google Maps Places API** – For hospital search  
+- **Bluetooth (flutter_blue or flutter_bluetooth_serial)** – Communication with MCU  
+- **Geolocator** – GPS location access  
+- **Permission Handler** – Runtime permissions  
+
+---
+
+## Screenshots
+
+*(Add screenshots of your app UI here if available)*
+
+---
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter SDK installed  
+- Android Studio / VS Code with emulator or real device  
+- Google Cloud project with Places API enabled  
+- Bluetooth-enabled MCU ready to pair (ESP32, etc.)
