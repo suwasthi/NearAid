@@ -27,7 +27,7 @@ NearAid is a mobile application designed to work with a smart helmet system. In 
 
 ## Screenshots
 
-*(Add screenshots of your app UI here if available)*
+<img width="500" height="850" alt="image" src="https://github.com/user-attachments/assets/8efcda3b-760f-4361-a71a-c3ea70bcfe0a" />
 
 ---
 
@@ -38,4 +38,4 @@ NearAid is a mobile application designed to work with a smart helmet system. In 
 - Flutter SDK installed  
 - Android Studio / VS Code with emulator or real device  
 - Google Cloud project with Places API enabled  
-- Bluetooth-enabled MCU ready to pair (ESP32, etc.)
+- Bluetooth-enabled MCU ready to pair (ESP32)
