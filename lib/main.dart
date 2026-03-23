@@ -82,7 +82,7 @@ class _HospitalPhonePageState extends State<HospitalPhonePage> {
       _statusMessage = "Searching nearest hospital...";
     });
 
-    const apiKey = 'AIzaSyDSja-rK0v6w3DAFO6Y4hxmo9eq7uRAThE'; // Replace with your key
+    const apiKey = 'YOUR-API-KEY'; // Replace with your key
     final nearbyUrl =
         'https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=$lat,$lon&radius=5000&type=hospital&key=$apiKey';
 
