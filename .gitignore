@@ -12,6 +12,12 @@
 .swiftpm/
 migrate_working_dir/
 
+android/
+ios/
+lib/
+linux/
+macos/
+
 # IntelliJ related
 *.iml
 *.ipr
